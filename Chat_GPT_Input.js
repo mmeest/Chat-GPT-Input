@@ -38,7 +38,7 @@ button.addEventListener("click", async () =>{
     // Loome Input elemendi
     const input = document.createElement("input");
     input.type = "file";
-    input.accept = ".txt,.js,.py,.html,.css,.json,.csv";
+    input.accept = ".txt,.js,.py,.html,.css,.json,.csv,.cs,.java";
 
     // Lisame input elemendile event listener'i
     input.addEventListener("change", async () => {
