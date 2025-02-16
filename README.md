@@ -3,7 +3,7 @@
 # Chat-GPT-Input
 Suurema mahuga failide sisestamiseks Chat GPT  aknasse
 
-## Kohaliku Firefod laiendi lisamine(extension)
+## Kohaliku Firefox laiendi lisamine(extension)
 
 1. Lae alla ChatGptInput.zip
 2. Ava Firefoxis järngev aadress:
