@@ -3,7 +3,29 @@
 # Chat-GPT-Input
 Suurema mahuga failide sisestamiseks Chat GPT  aknasse
 
-# Kasutusjuhend
+## Kohaliku Firefox laiendi lisamine(extension)
+
+1. Lae alla ChatGptInput.zip
+2. Ava Firefoxis järngev aadress:
+
+```
+about:config
+```
+
+Kliki 'Accept the Risk and Continue'
+Muuda järgnev valik 'xpinstall.signatures.required'  false
+
+3. Ava Firefoxis järgnev aadress:
+
+```
+about:addons
+```
+Kliki hammasratta ikoonil
+Vali 'Install Add-on from File...' ning vali laiend oma kohalikust arvutist ehk ChatGptInput.zip
+See võimaldab lisada laiendeid järgnevates formaatides '.xpi', '.jar' and '.zip'
+
+
+## Kasutusjuhend (ajutine)
 
 *Kasutusjuhend:
 1. Kopeerige 'Chat_GPT_Input.js' kood
@@ -22,3 +44,9 @@ Suurema mahuga failide sisestamiseks Chat GPT  aknasse
 * .csv
 * .cs
 * .java
+
+## Firefox laiendi loomine
+
+Selleks lisatud:
+* manifest.json
+* PNG ikoonid resolutsiooniga: 16, 32, 48 ja 128 pikslit
